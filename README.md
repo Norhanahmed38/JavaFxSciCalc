@@ -62,7 +62,7 @@ e^x: Finding e power of x
 1/X: The inverse for a number X  
 |X|: Return the positive value of x  
 exp: It returns 10 to the power of x  
-ComboBoxes and its functions  
+#     ComboBoxes and its functions  
 #     Function  
 Consists of a set of approximate functions (Ceil-Floor-rand-abs)   
 Ceil: It’s used to round a fraction to the nearest upward number  
@@ -73,7 +73,7 @@ abs: It’s used to obtain the standard of a number (the absolute value)
 Consists of a set of functions (Trigonometry-Inverse   
 Trigonometry-Hyperpolic-Inverse Hyperpolic)  
 Trigonometric functions: <sin-cos-tan-cot-csc-sec>  
-Inverse Trigonometric functions: < Arcsin-Arccos-Arctan-ArcsecArccsc-Arccot>  
+Inverse Trigonometric functions: < Arcsin-Arccos-Arctan-Arcsec-Arccsc-Arccot>  
 Hyperpolic functions: <sinh-cosh-tanh-csch-sech-coth>  
-Inverse Hyperpolic functions: <Arcsinh-Arccosh-Arctanh-ArccschArcsech-Arccoth>  
+Inverse Hyperpolic functions: <Arcsinh-Arccosh-Arctanh-Arccsch-Arcsech-Arccoth>  
 
