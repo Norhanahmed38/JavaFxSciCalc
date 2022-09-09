@@ -74,6 +74,7 @@ Consists of a set of functions (Trigonometry-Inverse
 Trigonometry-Hyperpolic-Inverse Hyperpolic)  
 Trigonometric functions: <sin-cos-tan-cot-csc-sec>  
 Inverse Trigonometric functions: < Arcsin-Arccos-Arctan-Arcsec-Arccsc-Arccot>  
-Hyperpolic functions: <sinh-cosh-tanh-csch-sech-coth>  
-Inverse Hyperpolic functions: <Arcsinh-Arccosh-Arctanh-Arccsch-Arcsech-Arccoth>  
+Hyperpolic functions:  <sinh-cosh-tanh-csch-sech-coth.>  
+Inverse Hyperpolic functions: <Arcsinh-Arccosh-Arctanh-ArccschArcsech-Arccoth>  
+
  
