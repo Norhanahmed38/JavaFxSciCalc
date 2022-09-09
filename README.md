@@ -1,4 +1,8 @@
 # JavaFxSciCalc
+Our project is a simple construction of scientific calculator (The 
+version of Microsoft applications), constructed by JaveFx and Java 
+Fxml. The project is an approximate construction to all the methods 
+and functions of real scientific calculator.
 # The main GUI construction contains:
   • An Anchorpane as the main container.
   • VBox containing all the other layouts.
@@ -41,14 +45,14 @@ MR: showing the stored number on the label
 MC: clear the stored number 
 #  Functions
 2nd: It switches between the functions of the buttons
-#  Case 1
+Case 1
 X^2: Finding the square of the number
 2√𝒙: Finding the square root of the number 
 𝒙^y: We consider this button as operator that it finds the number power another number
 𝟏𝟎^𝒙: Finding 10 power x 
 Log: Finding Base 10 logarithm of Number
 Ln: Finding Base e logarithm of Number
-#  Case 2
+Case 2
 X^3: Finding the cube of the number
 3√𝒙: Finding the cubic root of the number
 y√𝒙: We consider this button as operator that it finds the number root of another number
