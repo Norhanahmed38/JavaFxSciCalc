@@ -71,8 +71,7 @@ Floor: It’s used to round a fraction to the nearest downward number
 rand: it’s used to Choose a random value its range between 0 and the number shown on the label  
 abs: It’s used to obtain the standard of a number (the absolute value)  
 ## Trigonometry  
-### Consists of a set of functions (Trigonometry-Inverse   
-• Trigonometry-Hyperpolic-Inverse Hyperpolic)  
+### Consists of a set of functions (Trigonometry-Inverse Trigonometry-Hyperpolic-Inverse Hyperpolic)  
 • Trigonometric functions: <sin-cos-tan-cot-csc-sec>  
 • Inverse Trigonometric functions: < Arcsin-Arccos-Arctan-Arcsec-Arccsc-Arccot>  
 • Hyperpolic functions:  <sinh-cosh-tanh-csch-sech-coth.>  
