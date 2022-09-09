@@ -4,12 +4,12 @@ version of Microsoft applications), constructed by JaveFx and Java
 Fxml. The project is an approximate construction to all the methods 
 and functions of real scientific calculator.
 # The main GUI construction contains:
-  • An Anchorpane as the main container.
-  • VBox containing all the other layouts.
-  • HBox containing the top 2 buttons.
-  • HBox containing 5 buttons.
-  • HBox containing 2 ComboBoxes and 2 ImageViews.
-  • GridPane (5*7) containing 35 buttons.  
+  • An Anchorpane as the main container.  
+  • VBox containing all the other layouts.   
+  • HBox containing the top 2 buttons.   
+  • HBox containing 5 buttons.   
+  • HBox containing 2 ComboBoxes and 2 ImageViews.  
+  • GridPane (5*7) containing 35 buttons.    
 # Used libraries
 ![Capture](https://user-images.githubusercontent.com/112608294/189385593-e3d47ae0-fdb4-4012-be3b-8d7230b8e490.PNG)
 # Design and GUI implementation  
@@ -27,17 +27,16 @@ Note:
 - There is an option of making multi operations as you can insert more than one operator without clicking =,but its mechanism depends on the order of operators 
 not the priority
 #  Clearing 
-The first one to clear the all the data 
-The second one is to clear the last shown number on label
-Constants
-e: mathematical constant that equal 2.718
-π: is a constant that equal 3.1415
-#  Rad and F-E
-Rad: convert the input between radian and degree
-F-E: convert the number shown on the label to the 
-formula "X+eY"
-Note:
-- Disability of dealing (making operations on it) with the "X+eY" formula, you can convert the number to this formula and return it only
+The first one to clear the all the data   
+The second one is to clear the last shown number on label  
+#  Constants  
+e: mathematical constant that equal 2.718  
+π: is a constant that equal 3.1415    
+#  Rad and F-E   
+Rad: convert the input between radian and degree   
+F-E: convert the number shown on the label to the formula "X+eY"
+Note:  
+- Disability of dealing (making operations on it) with the "X+eY" formula, you can convert the number to this formula and return it only  
 #  Storing
 MS: storing a specific number
 M+ and M-: adding or subtracting other number to the saved one
