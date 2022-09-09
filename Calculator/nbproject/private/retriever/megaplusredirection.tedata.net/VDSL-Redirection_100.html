@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html class="l-ltr no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirection Page</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/te.ico">
+    <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link href="file/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="file/css/fonts__.css">
+    <link rel="stylesheet" href="file/css/vendor.css">
+    <link rel="stylesheet" href="file/css/main.css">
+    <link rel="stylesheet" href="file/css/main__.css">
+    <link rel="stylesheet" href="file/css/mystyle.css">
+    <link rel="stylesheet" href="file/css/toastr.min.css">
+	  <link rel="stylesheet" href="file/css/pace.min.css">
+
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="styles/ie8-styles.css">
+    <![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="styles/ie9-styles.css">
+    <![endif]-->
+    
+    <!--[if lte IE 8]>
+    <script src="scripts/ie8js.js"></script>
+    <![endif]-->
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="theme-default main-page">
+    <!--Service Data here-->
+    <input type="hidden" id="HLevel" value="100" />
+    <input type="hidden" id="HRemoveRedirectionErrorMsgEn" value="Something went wrong, please try again later" />
+    <input type="hidden" id="HRemoveRedirectionErrorMsgAr" value="لقد حدث خطأ ما, الرجاء المحاولة مره اخري" />
+    <input type="hidden" id="HBackEndUrl" value="https://api-my.te.eg/api/adslredirection" />
+    <div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="pace-bg"></div>    
+    <!--End Service Data-->
+
+    <!--MAIN Header here-->
+    <header class="header">
+      <div class="header__top container-half--ver--half">
+        <div class="one-one align-center clearfix">
+         
+          <div class="align-op-default col-sm-12">
+            <!-- Logo -->
+            <a href="https://te.eg/wps/portal/te/Personal/" class="header__logo inline-block text-middle col-sm-visible">
+              <img src="images/svgfallback/logo.png" class="header__logo__img">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__main col-sm-hide">
+        <div class="one-one align-center clearfix">
+          <div class="l-table l-full">
+            <div class="l-table-cell text-middle">
+            <a href="https://te.eg/wps/portal/te/Personal/" class="header__logo inline-block text-middle">
+                <img src="images/svgfallback/logo.png" class="header__logo__img">
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--MAIN Header Ends here-->
+
+    <!--main container starts here-->
+    <main class="main-container">
+      <div class="container">
+        <div class="row">
+          <!-- img banner -->
+          <div class="col col-lg-12 banner">
+            <img class="img-responsive" src="images/mega-plus-ar.jpg">
+          </div>
+        </div>
+  
+        <div class="row">
+          <!-- user quota img -->
+          <div class="col col-lg-12">
+            <img src="images/User_quota_100.png" class="img-responsive quota_N">
+            <p class="text-center" style="margin: 10px 0px 10px 0px;">You have consumed 100% of your monthly basic quota</p>
+          </div>
+        </div>
+  
+        <!-- Messages starts here -->
+        <div class="row">
+          <div class="messages-container">
+            <!-- english msg -->
+            <div class="msg-grid col col-lg-6 col-md-6 col-sm-6 col-xs-6 border_col">
+              <p class="msg-line"> Dear Customer,</p>
+              <p class="msg-line"> Kindly note that you have consumed 100% of your monthly basic quota. </p>
+              <p class="msg-line"> If you’d like to buy extra quota you can use one of the following channels: </p>
+
+              <ul>
+                <li>
+                  <a class="item-link linked" href="https://my.te.eg/#/home/signin">my.te.eg</a>
+                </li>
+                <li>
+                  <a class="item-link" href="https://www.te.eg/wps/portal/te/Personal/Store%20Locator/!ut/p/z1/04_iUlDg4uLSjwDSQBYygZujH5WXWJaZnliSmZ-XmKMfoR8ZZRbvHehiZOjvbuBt4R1sYuDo6-psYh5obmDgbqjvpR-FX0Fwap5-QXagIgBB3hir/">Telecom Egypt branches</a>
+                </li>
+              </ul>
+
+              <p class="msg-line"> Or through any of the e-payment networks machines </p>
+              <p class="msg-line text-center"> Or </p>
+            </div>
+    
+            <!-- arabic msg -->
+            <div class="msg-grid col col-lg-6 col-md-6 col-sm-6 col-xs-6">
+              <p class="msg-line txt_ar">عميلنا العزيز، </p>
+              <p class="msg-line txt_ar"> برجاء العلم أنه تم استهلاك ۱٠٠% من باقتك الأساسية.</p>
+              <p class="msg-line txt_ar"> يمكنك شراء سعة تحميل إضافية عن طريق: </p>
+    
+              <ul class="list_ar">
+                <li>
+                  <a class="item-link linked" href="https://my.te.eg/#/home/signin">my.te.eg</a>
+                </li>
+                <li>
+                  <a class="item-link txt_ar" href="https://www.te.eg/wps/portal/te/Personal/Store%20Locator/!ut/p/z1/pZVLc6MwDMe_Snvo0YOwjI2PtGlISptuk_QRLhkDZstuIGniZLb99GvamT7ygO0sFx7-S_pZkoUTOw9OXKlN8VOZYl6pmX2fxHwa3XSoex1CFEa-D8FVr8_GvWsKAXfuvwquJZdW0O-AHAoKPnXiZvs7J3bitDIL8-hMjD6BRz1bnEBRGb2stDmBXD3VkkVaZM7Eg1z6NM2JUq4iDFCQBDAjCFIJVL6faNWMFHL3K9LW8q1ose_Bq70HHdqHEVz6_YHdktdxgdIxQui2pKTLG-OD1xLfChrs4a4t_l3z_kNsiW8FTfYMWuwZNNrzFv66QHFzed7sGwoUf6ultwQ-_J998FZ_OHAFNX-8RxLA6ZCeIkBYE7T5iBuTdMObBa_ntlEwZNuCPWna8hAN0ApkB8663IUr4UxsosSHAPyhTY9LBY_6QwQKzujj5DNBhRKQkIynHmGcCiKlp-0MAMaQe1lCc-eirbXsOCt-PT3FgZ05czti_hjnoR46KpmvzfvDenUCqZ4frYwyutSVcUZquUN71ju3zn-ce2OGFDzxmRazDJX0kPiYIWFSIZF5_SRcN6FSYs5kM209Jw7RJutVUemVpcyUUcSuVTo1xaYwzxZ8vlzMlxZ8tUM8iOoApz026nRwi9hlnKMAbTkTlzCULpFCINGekOBpJpnkLfm1k6GdeDMvUr3Sy01920N76NhG-JlWaomKYUIA3ZywRCiiNGTEA2l5k5S5Ce44xFvbXoMgku6oi2FXfNvhRdvkb22v-qtKzbTuMF2qYna03inT1kG65J85_-kHeNE2oQ5x7vv3Lsrb0sfn4v0iv4fnw97LOC_vSVhOr4wP6M02ZTkdDEiceIvNy2VwfPwX0JhkFg!!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0tRRDIxT0cwSzhLUzQwQU1FQzQ3UTcwMEcx/">فروع المصرية للاتصالات</a>
+                </li>
+              </ul>
+
+              <p class="msg-line txt_ar">أو من خلال أحدى ماكينات شبكات الدفع الالكتروني</p>
+              <p class="msg-line txt_ar text-center"> أو </p>
+            </div>
+          </div>
+        </div>
+  
+        <!--Action Button here-->
+        <div class="block__body action-btn">
+          <a class="btn submit edit-btn" onclick="removeRedirection()">
+            Continue Browsing <br/>  
+            <span class="txt_ar">الاستمرار بالتصفح</span>
+          </a>
+          
+          <!-- Valdation error message -->
+          <span class="error" id="contactIdentification-error"></span>
+        </div>
+        <!--Action Button ends here-->
+      </div>
+    </main>
+    <!--Message ends here---->
+ 
+    <!--Footer starts Here -->
+    <footer class="footer container-double--ver clearfix">
+      <div class="copyrights">
+        <p>
+          For all mobile, internet and fixed line users: in case you are unable to
+          solve any problem you have encountered with your service provider,
+          kindly dial 155 to call the National Telecom Regulatory Authority
+          (NTRA) customer service call center and submit your complaint. This
+          number works seven days a week, from 8:00 a.m. to 10:00 p.m.
+        </p>
+        <p class="footer-link">Copyright © 2019 Telecom Egypt. All Rights Reserved. </p>
+      </div>
+    </footer>
+    
+    <script src="file/components/js/jquery-3.3.1.min.js"></script>
+    <script src="file/components/js/bootstrap.min.js"></script>
+    <script src="file/components/js/pace.min.js"></script>
+    <script src="file/components/js/toastr.min.js"></script>
+    <script src="file/js/remove-redirection.js"></script>
+  </body>
+</html>
