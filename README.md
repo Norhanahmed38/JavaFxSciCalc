@@ -11,11 +11,11 @@ and functions of real scientific calculator.
   • HBox containing 2 ComboBoxes and 2 ImageViews.
   • GridPane (5*7) containing 35 buttons.  
 # Used libraries
-# GUI is built with scene builder
 ![Capture](https://user-images.githubusercontent.com/112608294/189385593-e3d47ae0-fdb4-4012-be3b-8d7230b8e490.PNG)
 # Design and GUI implementation  
 ![Capt66ure](https://user-images.githubusercontent.com/112608294/189385792-b8643522-291c-46bf-a9be-8aa1ff7d2a44.PNG)
-# UML Diagram
+# GUI is built with scene builder
+#    UML Diagram
 ![Cببapture](https://user-images.githubusercontent.com/112608294/189385940-8b2d86f6-cd6a-4778-a7b9-beda13f37367.PNG)
 ![Caبببببببpture](https://user-images.githubusercontent.com/112608294/189385978-9d821309-eec7-4c9b-b6d4-9cdc55ede571.PNG)
 # Buttons and its function
@@ -43,7 +43,7 @@ MS: storing a specific number
 M+ and M-: adding or subtracting other number to the saved one
 MR: showing the stored number on the label
 MC: clear the stored number 
-#  Functions
+#   Functions
 2nd: It switches between the functions of the buttons
 Case 1
 X^2: Finding the square of the number
