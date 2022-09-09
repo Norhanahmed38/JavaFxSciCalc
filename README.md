@@ -26,9 +26,10 @@ The main operators for mathematical operations.
 Note:
 - There is an option of making multi operations as you can insert more than one operator without clicking =,but its mechanism depends on the order of operators 
 not the priority
-#    Clearing 
+#    Clearing   
 The first one to clear the all the data   
-The second one is to clear the last shown number on label  
+The second one is to clear the last shown number on label    
+![Cap55ture](https://user-images.githubusercontent.com/112608294/189390765-526c24fc-6b46-44ee-98c2-f31ce165b29d.PNG)  
 #    Constants  
 e: mathematical constant that equal 2.718  
 π: is a constant that equal 3.1415    
